@@ -34,6 +34,16 @@
                 <f:param name="pageIdentifiant" value="page2" />
             </h:commandButton>
         </h:form>
+        <hr/>
+         <h1>
+            Forward vs redirect
+        </h1>
+        <h:form>
+            <h:commandButton action="hello" value="forward to page hello"/>
+        </h:form>
+        <h:form>
+            <h:commandButton action="hello?faces-redirect=true" value="redirect to page hello"/>
+        </h:form>
     </h:body>
 </html>
 
